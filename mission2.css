@@ -1,0 +1,29 @@
+div.container {
+    width: 98%;
+    height: 100%;
+    background-color: antiquewhite;
+    outline: 5px solid black;
+}
+
+.odd_line, .even_line {
+    width: 99%;
+    height: 3rem;
+    display: flex;
+    gap: 10px;
+    padding: 8px;
+}
+
+div.box {
+    background-color: rgb(117, 87, 11);
+    border: 3px solid black;
+}
+
+.big {
+    flex-grow: 2;
+}
+
+.small {
+    flex-grow: 1.1;
+    background-color: rgb(97, 90, 72);
+}
+

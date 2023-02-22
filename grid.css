@@ -1,0 +1,71 @@
+div.grid_container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 5px ;
+    padding: 10px;
+    margin: 10px;
+    /* grid-template-areas: 
+    "H1 H2 H3"
+    "M1 M2 M3"
+    "F1 F2 F3"; */
+    grid-template-columns: 120px 200px 100px;
+    grid-template-rows: 80px 160px 80px; 
+    background-color: antiquewhite;
+    border: 1px solid red;
+    /* justify-content: stretch; */
+}
+
+.grid-item {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgb(119, 168, 56);
+    outline: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+/* 第二行 从第一列 */
+/* .item:nth-child(1) {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: rebeccapurple;
+} */
+
+.grid-container.grid-item:nth-child(1) {
+    /* -area: H1; */
+    grid-row-start: 1;
+    grid-column-start: 1;
+    background-color: rgb(132, 220, 132);
+}
+
+.grid-container.grid-item:nth-child(2) {
+    /* grid-area: H2; */
+    grid-row-start: 1;
+    grid-column-start: 2;
+    background-color: rgb(83, 212, 217);
+}
+
+.grid-item:nth-child(3) {
+    /* grid-area: h3; */
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    background-color: rgb(116, 54, 116);
+}
+
+.grid-item:nth-child(4) {
+    /* grid-area: M1 M2; */
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: rgb(69, 79, 165);
+}
+
+.grid-item:nth-child(5) {
+    /* grid-area: M2; */
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: green;
+}

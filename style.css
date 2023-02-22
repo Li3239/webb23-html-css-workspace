@@ -1,0 +1,158 @@
+.box_area {
+    display: flex;
+    flex-direction: line;
+    gap: 1.5rem;
+}
+
+div.bigbox {
+    width: 10rem;
+    height: 10rem;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+div.smallbox {
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(117, 87, 11);
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* **********box2********** */
+.box2 {
+    display: flex;
+    flex-direction: column;
+}
+.box2_upp {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: start;
+}
+
+.box2_down {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: right;
+    align-items: end;
+}
+
+/* **********box3********** */
+.box3 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.box3_upp {
+    display: flex;
+    justify-content: left;
+    align-items: start;
+}
+
+.box3_middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3_down {
+    display: flex;
+    justify-content: right;
+    align-items: end;
+}
+
+/* **********box4********** */
+.box4 {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.box4_upp {
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box4_down {
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* **********box5********** */
+.box5 {
+    display: flex;
+    flex-direction: column;
+}
+
+.box5_upp {
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box5_middle {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box5_down {
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* **********box6********** */
+.box6 {
+    display: flex;
+    flex-direction: column;
+}
+
+.box6_upp {
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box6_middle {
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box6_down {
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#btnClick {
+    width: 10rem;
+    height: 5rem;
+    margin-top: 20px;
+    font-size: large;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 3px 0px 0px rgb(124, 120, 120);
+}
